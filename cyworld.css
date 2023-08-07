@@ -1,0 +1,121 @@
+/* styles.css */
+
+.title-and-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  height: 100px; /* 로고의 높이와 동일하게 설정 */
+}
+.buttons {
+  position: absolute;
+  top: 10px; /* 위쪽 여백 조정 */
+  right: 10px; /* 오른쪽 여백 조정 */
+  gap: 20px;
+}
+.buttons button {
+  border: none; /* 버튼 태두리 제거 */
+  background-color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  color: #908e8e; /* 모든 버튼 텍스트 색상을 회색으로 변경 */
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.mainlogo {
+  height: 44px;
+  margin-right: 4px; /* 로고와 제목 사이의 간격 조정 */
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative; /* 상대 위치 설정 */
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  width: 380px; /* 가로 넓이를 100%로 설정 */
+  border: 2px solid #000000; /* 태두리 스타일 추가 */
+  border-radius: 20px;
+  margin-left: 20px; /* 검색창과 제목 사이의 간격 조정 */
+}
+#searchButton {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 8px 18px; /* 여기서 padding 값을 늘려서 버튼 크기 조정 */
+  background-color: #ffffff;
+  cursor: pointer;
+  position: absolute; /* 절대 위치 설정 */
+  right: 5px; /* 오른쪽으로 이동 */
+  top: 50%; /* 세로 중앙 위치 */
+  transform: translateY(-50%); /* 세로 중앙 위치 조정 */
+}
+
+.sublogo {
+  height: 70px;
+  margin-left: 60px; /* 로고와 제목 사이의 간격 조정 */
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+  gap: 100px; /* 각 링크 사이의 간격 설정 */
+  padding: 10px; /* 좌우 여백 설정 */
+  border-top: 1px solid #bebdbd7d; /* 위쪽 선 스타일 설정 */
+  border-bottom: 1px solid #bebdbd7d; /* 아래쪽 선 스타일 설정 */
+}
+
+.bar a {
+  text-decoration: none;
+  color: #333;
+  padding: 4px 10px;
+  font-weight: 900; /* 더 굵은 글자 굵기 설정 */
+  font-size: 14px;
+}
+
+.main-image {
+  text-align: center;
+  margin-top: 20px; /* 이미지 위쪽 여백 조정 */
+}
+
+.main-image img {
+  width: 100%; /* 이미지의 최대 가로 넓이 설정 */
+  max-height: 600px; /* 이미지의 최대 높이 설정 */
+}
+
+.main-text {
+  text-align: center;
+  font-size: 14px; /* 원하는 글씨 크기 설정 */
+  margin-top: 10px; /* 텍스트 위쪽 여백 조정 */
+  font-weight: 700;
+}
+
+.profile-image {
+  
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px; /* 위쪽 여백 설정 */
+}
+
+.profile-image img {
+  max-width: 100%;
+  height: auto;
+  width: 35%; /* 두 이미지를 반씩 차지하도록 설정 */
+  margin: 0 10px; /* 이미지 사이 간격 설정 */
+  border: 2px solid #ccc; /* 이미지 태두리 스타일 추가 */
+  border-radius: 5px; /* 이미지 태두리를 둥글게 처리 */
+}
+
+.profile-text {
+  text-align: center;
+  font-size: 14px; /* 원하는 글씨 크기 설정 */
+  margin-top: 30px; /* 텍스트 위쪽 여백 조정 */
+  font-weight: 700;
+}
